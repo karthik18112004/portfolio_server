@@ -19,7 +19,7 @@ app.post('/api/ask', async (req, res) => {
 
   try {
     const response = await openai.chat.completions.create({
-      model: 'openrouter/gpt-3.5-turbo',
+      model: 'model: 'gpt-3.5-turbo',
       messages: [
         {
           role: 'system',
